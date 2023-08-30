@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1693422379,,"q"
+|2,0,1693422971,,"q"
 :w
-|2,0,1693422376,,"w"
+|2,0,1693422969,,"w"
 :q!
 |2,0,1693416110,,"q!"
 :p
@@ -33,36 +33,50 @@
 # Registers:
 
 # File marks:
-'0  2  3  ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
-|4,48,2,3,1693422379,"~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home"
-'1  2  2  ~/0x00-shell_basics/0-current_working_directory
-|4,49,2,2,1693421906,"~/0x00-shell_basics/0-current_working_directory"
-'2  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
-|4,50,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
-'3  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
-|4,51,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
-'4  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
-|4,52,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
-'5  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,53,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
-'6  2  38  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
-|4,54,2,38,1693419201,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
-'7  2  13  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-|4,55,2,13,1693419025,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
-'8  2  21  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
-|4,56,2,21,1693418714,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
-'9  2  15  ~/alx-system_engineering-devops/0x00-shell_basics/3-listfiles
-|4,57,2,15,1693418155,"~/alx-system_engineering-devops/0x00-shell_basics/3-listfiles"
+'0  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
+|4,48,2,5,1693422971,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
+'1  2  3  ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+|4,49,2,3,1693422379,"~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home"
+'2  2  2  ~/0x00-shell_basics/0-current_working_directory
+|4,50,2,2,1693421906,"~/0x00-shell_basics/0-current_working_directory"
+'3  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,51,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+'4  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,52,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+'5  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,53,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+'6  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
+|4,54,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
+'7  2  38  ~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile
+|4,55,2,38,1693419201,"~/alx-system_engineering-devops/0x00-shell_basics/7-movethatfile"
+'8  2  13  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
+|4,56,2,13,1693419025,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
+'9  2  21  ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
+|4,57,2,21,1693418714,"~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles"
 
 # Jumplist (newest first):
+-'  2  5  ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
+|4,39,2,5,1693422971,"~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory"
 -'  2  3  ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
 |4,39,2,3,1693422379,"~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home"
+-'  2  3  ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+|4,39,2,3,1693422379,"~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+|4,39,1,0,1693422317,"~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
 |4,39,1,0,1693422317,"~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home"
 -'  2  2  ~/0x00-shell_basics/0-current_working_directory
 |4,39,2,2,1693421906,"~/0x00-shell_basics/0-current_working_directory"
 -'  2  2  ~/0x00-shell_basics/0-current_working_directory
 |4,39,2,2,1693421906,"~/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693421906,"~/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693421906,"~/0x00-shell_basics/0-current_working_directory"
+-'  1  0  ~/0x00-shell_basics/0-current_working_directory
+|4,39,1,0,1693421728,"~/0x00-shell_basics/0-current_working_directory"
+-'  1  0  ~/0x00-shell_basics/0-current_working_directory
+|4,39,1,0,1693421728,"~/0x00-shell_basics/0-current_working_directory"
 -'  1  0  ~/0x00-shell_basics/0-current_working_directory
 |4,39,1,0,1693421728,"~/0x00-shell_basics/0-current_working_directory"
 -'  1  0  ~/0x00-shell_basics/0-current_working_directory
@@ -75,6 +89,22 @@
 |4,39,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
 -'  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
 |4,39,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  2  4  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,2,4,1693420468,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,1,0,1693420434,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,1,0,1693420434,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,1,0,1693420434,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
+|4,39,1,0,1693420434,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
 |4,39,1,0,1693420434,"~/alx-system_engineering-devops/0x00-shell_basics/10-back"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/10-back
@@ -99,6 +129,38 @@
 |4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
 -'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
 |4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  2  31  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,2,31,1693420289,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
+-'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
+|4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
 |4,39,1,0,1693420214,"~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion"
 -'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/9-firstdirdeletion
@@ -147,6 +209,38 @@
 |4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
 -'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
 |4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
+-'  2  2  ~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+|4,39,2,2,1693419912,"~/alx-system_engineering-devops/0x00-shell_basics/0-current_working_directory"
 -'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
 |4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
 -'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
@@ -161,102 +255,15 @@
 |4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
 -'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
 |4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  2  34  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,2,34,1693419417,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
--'  1  0  ~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete
-|4,39,1,0,1693419348,"~/alx-system_engineering-devops/0x00-shell_basics/8-firstdelete"
 
 # History of marks within files (newest to oldest):
+
+> ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
+	*	1693422969	0
+	"	2	5
+	^	2	6
+	.	2	3
+	+	2	3
 
 > ~/alx-system_engineering-devops/0x00-shell_basics/2-bring_me_home
 	*	1693422376	0
@@ -309,13 +316,6 @@
 	^	2	39
 	.	2	38
 	+	2	38
-
-> ~/alx-system_engineering-devops/0x00-shell_basics/6-firstdirectory
-	*	1693419023	0
-	"	2	13
-	^	2	14
-	.	2	13
-	+	2	13
 
 > ~/alx-system_engineering-devops/0x00-shell_basics/4-listmorefiles
 	*	1693418710	0
