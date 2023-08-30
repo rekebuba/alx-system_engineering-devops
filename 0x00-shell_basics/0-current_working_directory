@@ -1,2 +1,10 @@
 #!/bin/bash
+<<<<<<< HEAD
 pwd
+=======
+<<<<<<< HEAD
+pwd
+=======
+cd root/alx-system_engineering-devops/0x00-shell_basics
+>>>>>>> 9ac530d07e4f235e9ff0d2b3aef01c73cf5879ea
+>>>>>>> f53063ea32e9e0c812a461002f9f28eb284d7a9e
