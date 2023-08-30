@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -m -p -A | LC_ALL=C sort -d -t/ -k1,1 -k2,2
