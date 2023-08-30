@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m -p -A | LC_ALL=C sort -d -t/ -k1,1 -k2,2
+ls -A1 | sort -d -f -k1.1,1.1 -k1.2n,1.2 | awk '{ORS = (/\/$/ ? ",/" : ",")} 1' | sed 's/,$/\n/'
