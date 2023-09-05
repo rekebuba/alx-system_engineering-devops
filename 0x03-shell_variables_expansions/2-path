@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | grep ~/action
+echo $PATH:/action
