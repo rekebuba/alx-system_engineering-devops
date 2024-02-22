@@ -15,5 +15,5 @@ if [ -e $file ]; then
         echo "$file file is a regular file"
     fi
 else
-    echo "$file file dose bot exist"
+    echo "$file file dose not exist"
 fi
