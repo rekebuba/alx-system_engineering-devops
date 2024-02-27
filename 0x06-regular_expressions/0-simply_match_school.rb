@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-var = ARGV[0]
-output = var.scan(/School/)
+arg = ARGV[0]
+output = arg.scan(/School/)
 puts output.join("")
