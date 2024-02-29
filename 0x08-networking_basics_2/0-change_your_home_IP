@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# A Bash script that displays all active IPv4 IPs on the machine it’s executed on.
 
-ifconfig | grep "inet " | awk '{print $2}'
+cp /etc/hosts /etc/hosts.new
+echo "127.0.0.2 localhost" | tee -a /etc/hosts.new
+echo "8.8.8.8 facebook.com" | tee -a /etc/hosts.new
