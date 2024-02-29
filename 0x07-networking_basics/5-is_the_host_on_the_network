@@ -5,6 +5,6 @@ arg=$1
 
 if [ -z "$arg" ]; then
     echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
-    exit 1
+else
+    ping -c 6 "$arg"
 fi
-ping -c 6 "$arg"
