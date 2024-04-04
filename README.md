@@ -1,2 +1,1 @@
-#!/bin/bash
-hi my name is Abubeker.
+# Alx-System-Engineering-Devops
