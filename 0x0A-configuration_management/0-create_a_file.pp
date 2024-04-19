@@ -1,8 +1,8 @@
 # Using Puppet, create a file school in /tmp
 file { '/temp/school':
-    ensure  => present,
-    mode    => '0744',
-    owner   => 'www-data',
-    group   => 'www-data',
-    content => 'I love puppet',
+  ensure    => present,
+  mode      => '0744',
+  owner     => 'www-data',
+  group     => 'www-data',
+  content   => 'I love puppet',
 }
