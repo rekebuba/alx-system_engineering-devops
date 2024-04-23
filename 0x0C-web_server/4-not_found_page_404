@@ -3,5 +3,6 @@
 sudo service nginx start
 sudo chmod 777 -R /var/www/html/
 echo "Ceci n'est pas une page" > /var/www/html/text.txt
+sudo sed -i '24i\	rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
 sudo sed -i '25i\\terror_page 404 \/text.txt;' /etc/nginx/sites-available/default
 sudo service nginx restart
