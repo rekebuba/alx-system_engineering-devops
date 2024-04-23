@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Configure your Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
+sudo service nginx start
+sudo chmod 777 -R /var/www/html/
+echo "Ceci n'est pas une page" > /var/www/html/text.txt
+sudo sed -i '25i\\terror_page 404 \/text.txt;' /etc/nginx/sites-available/default
+sudo service nginx restart
