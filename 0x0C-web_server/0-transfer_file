@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# A Bash script that transfers a file from our client to a server
 message="Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 if [ $# -lt 3 ]; then
     echo "$message"
