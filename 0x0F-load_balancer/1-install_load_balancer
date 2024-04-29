@@ -6,11 +6,11 @@ apt-get -y install haproxy
 
 server_config=\
 "
-frontend  ephraim-frontend
+frontend  WebTraffic-frontend
         bind *:80
         mode http
-        default_backend ehoneah-backend
-backend ehoneah-backend
+        default_backend WebTraffic-backend
+backend WebTraffic-backend
         balance roundrobin
         server 124571-web-01 54.175.224.158:80 check
         server 124571-web-02 100.25.129.156:80 check
