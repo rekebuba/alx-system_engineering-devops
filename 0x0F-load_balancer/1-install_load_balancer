@@ -1,1 +1,20 @@
 #!/usr/bin/env bash
+# Configure HAproxy so that it send traffic to web-01 and web-02
+
+sudo apt-get -y update
+apt-get -y install haproxy
+
+sudo service haproxy start
+
+sudo sed -i "\$a\\\nlisten WebTraffic" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tbind *:80" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tmode http" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tstats enable" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tstats uri /haproxy?status" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tbalance roundrobin\n" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tserver 124571-web-01 54.175.224.158:80" /etc/haproxy/haproxy.cfg
+sudo sed -i "\$a\\\tserver 124571-web-02 100.25.129.156:80" /etc/haproxy/haproxy.cfg
+
+echo "ENABLED=1" | sudo tee -a /etc/default/haproxy
+
+sudo service haproxy restart
