@@ -4,8 +4,6 @@
 sudo apt-get -y update
 apt-get -y install haproxy
 
-sudo service haproxy start
-
 sudo sed -i "\$a\\\nlisten WebTraffic" /etc/haproxy/haproxy.cfg
 sudo sed -i "\$a\\\tbind *:80" /etc/haproxy/haproxy.cfg
 sudo sed -i "\$a\\\tmode http" /etc/haproxy/haproxy.cfg
