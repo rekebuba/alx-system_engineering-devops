@@ -1,1 +1,15 @@
 #!/usr/bin/env bash
+
+print () {
+    destnation=$(dig "$2.$1" +short)
+    echo "The subdomain "$2" is a A record and points to "$destnation""
+}
+
+domain=$1
+sub_domain=$2
+
+if [ $# -eq 1 ]; then
+    echo "only"
+else
+    print  "$domain" "$sub_domain"
+fi
