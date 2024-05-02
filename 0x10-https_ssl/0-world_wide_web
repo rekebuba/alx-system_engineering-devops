@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
+# Configure your domain zone so that the subdomains points to your load-balancer IP
+# and a Bash script that will display information about subdomains.
 
 print () {
     destnation=$(dig "$2.$1" +short)
-    echo "The subdomain "$2" is a A record and points to "$destnation""
+    record=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk '{print $3}' | tail -n 1)
+    echo "The subdomain "$2" is a "$record" record and points to "$destnation""
 }
 
 domain=$1
