@@ -5,7 +5,7 @@
 print () {
     destnation=$(dig "$2.$1" +short)
     record=$(dig "$2.$1" | grep -A1 'ANSWER SECTION:' | awk '{print $3}' | tail -n 1)
-    echo "The subdomain "$2" is a "$record" record and points to "$destnation""
+    echo "The subdomain $2 is a $record record and points to $destnation"
 }
 
 domain=$1
