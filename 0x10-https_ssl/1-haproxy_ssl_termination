@@ -43,7 +43,6 @@ frontend  WebTraffic-http
 frontend WebTraffic-https
         bind *:443 ssl crt /etc/haproxy/certs/www.rekebuba.tech.pem
         http-request add-header X-Forwarded-Proto https
-        redirect scheme https if !{ ssl_fc }
         default_backend WebTraffic-backend
 
 backend WebTraffic-backend
