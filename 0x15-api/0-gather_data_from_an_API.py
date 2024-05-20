@@ -19,7 +19,7 @@ if __name__ == "__main__":
     total_tasks = list(filter(lambda x: x['userId'] == id, result))
     completed = list(filter(lambda x: x['completed'] is True, total_tasks))
     print(
-        "Employee {} is done with tasks ({}/{}):".format(
+        "Employee {} is done with tasks({}/{}):".format(
             name,
             len(completed),
             len(total_tasks)
