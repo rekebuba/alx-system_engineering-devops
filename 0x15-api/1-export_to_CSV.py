@@ -2,8 +2,8 @@
 """
 Using from task #0, extended Python script to export data in the CSV format.
 """
-import requests
 import csv
+import requests
 import sys
 
 users_url = "https://jsonplaceholder.typicode.com/users"
