@@ -6,16 +6,14 @@ returns information about his/her TODO list progress.
 import requests
 import sys
 
-
-url = "https://jsonplaceholder.typicode.com/"
+users_url = "https://jsonplaceholder.typicode.com/users"
+todos_url = "https://jsonplaceholder.typicode.com/todos"
 
 if __name__ == "__main__":
     id = int(sys.argv[1])
-    users = f"users/{id}/"
-    todos = "todos/"
 
-    name = requests.get(url + users).json()['name']
-    result = requests.get(url + todos).json()
+    name = requests.get(users_url + f"/{id}").json()['name']
+    result = requests.get(todos_url).json()
     total_tasks = list(filter(lambda x: x['userId'] == id, result))
     completed = list(filter(lambda x: x['completed'] is True, total_tasks))
     print(
