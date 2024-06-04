@@ -8,6 +8,9 @@ def top_ten(subreddit):
     """
     titles of the first 10 hot posts listed for a given subreddit.
     """
+    if subreddit is None or not isinstance(subreddit, str):
+        print("None")
+
     URL = f'https://www.reddit.com/r/{subreddit}/hot/.json'
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
