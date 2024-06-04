@@ -22,7 +22,7 @@ def recurse(subreddit, hot_list=[], after=""):
             raise Exception
         else:
             result = result.json()
-            for i, data in enumerate(result['data']['children']):
+            for data in result['data']['children']:
                 hot_list.append(data['data']['title'])
     except Exception:
         return None
