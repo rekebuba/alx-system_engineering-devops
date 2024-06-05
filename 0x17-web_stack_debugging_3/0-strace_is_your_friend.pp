@@ -11,8 +11,8 @@ exec { 'create_file_if_empty_or_nonexistent':
 
 # File resource to manage file properties
 file { $file_path:
-  ensure => 'file',
-  mode   => '0644',
+  ensure  => 'file',
+  mode    => '0644',
   # This will ensure the file properties are correct, but will not overwrite content if the file already exists
   require => Exec['create_file_if_empty_or_nonexistent'],
 }
