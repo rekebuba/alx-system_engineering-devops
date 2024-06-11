@@ -1,0 +1,25 @@
+server {
+        listen 80;
+        listen [::]:80;
+
+        server_name 54.175.224.158;
+
+        add_header X-Served-By "124571-web-01";
+
+        location /airbnb-onepage/ {
+                include proxy_params;
+                proxy_pass http://unix:/home/ubuntu/AirBnB_clone_v2/web_flask/0-hello_route.sock;
+        }
+ 
+        location ~ /airbnb-dynamic/number_odd_or_even/(\d+)$ {
+                include proxy_params;
+                rewrite /airbnb-dynamic/number_odd_or_even/(\d+)$ /number_odd_or_even/$1 break;
+                proxy_pass http://unix:/home/ubuntu/AirBnB_clone_v2/web_flask/6-number_odd_or_even.sock;
+
+        }
+
+        location /api/ {
+                include proxy_params;
+                proxy_pass http://unix:/home/ubuntu/AirBnB_clone_v3/api/v1/app.sock;
+        }
+}
