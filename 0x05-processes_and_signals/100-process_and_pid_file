@@ -5,9 +5,9 @@
 # Displays Y U no love me?! when receiving a SIGINT signal
 # Deletes the file /var/run/my.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal
 
-echo $$ | sudo tee /var/run/holbertonscript.pid > /dev/null
+echo $$ | sudo tee /var/run/myscript.pid > /dev/null
 
-remove="sudo rm -f /var/run/holbertonscript.pid"
+remove="sudo rm -f /var/run/myscript.pid"
 
 trap "echo Y U no love me?!" SIGINT
 trap 'echo "I hate the kill command"; $remove; exit' SIGTERM SIGQUIT
