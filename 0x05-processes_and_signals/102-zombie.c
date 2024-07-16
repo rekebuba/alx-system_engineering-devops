@@ -24,12 +24,14 @@ int main(void)
  */
 void createZombie(int n)
 {
+	pid_t pid;
+
 	if (n == 0)
 	{
 		return;
 	}
 
-	pid_t pid = fork();
+	pid = fork();
 
 	if (pid == 0)
 	{
